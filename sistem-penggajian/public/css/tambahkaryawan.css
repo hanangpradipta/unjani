@@ -1,0 +1,81 @@
+body{
+    background-color: #E7E7E7 !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.pusattable{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    margin-top: 200px;
+    width: 1275px;
+    border-radius: 20px;
+    box-shadow: 0px 7px 15px 0px rgba(0, 0, 0, 0.40);
+
+}
+.tabeldashboard{
+    width: 100%;
+    border-collapse: collapse;
+}
+.logounjani{
+    width: 100px;
+}
+.navbar{
+    background-color: #00770C !important;
+}
+.text-bg{
+    background: rgb(0, 148, 15) !important;
+box-shadow: 10px 0px 20px 0px rgba(0, 0, 0, 0.20) !important;
+}
+.dropdown-menu{
+    background-color: #00770C !important;  
+    --bs-dropdown-link-hover-bg: rgb(0, 148, 15)
+    !important;  
+}
+.fontdd{
+    font-size: 20px !important;
+}
+.dropdown-item{
+    color: white !important;
+}
+h5{
+    color: white !important;
+    font-size: 30px !important;
+}
+.pusatcontenttambah{
+    width: 500px;
+    background-color: white;
+    margin-top: 200px;
+    border-radius: 20px;
+    background: #FFF;
+    box-shadow: 0px 7px 15px 0px rgba(0, 0, 0, 0.40);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.judultambah{
+    position: absolute;
+    margin-top: -380px;
+}
+input{
+    width: 300px !important;
+    border-radius: 10px;
+border: 1px solid #000;
+background: #FFF;
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+}
+.btn-submit{
+    width: 150px;
+    height: 50px;
+    color: #FFF;
+    border-radius: 10px;
+    background: #2C73FF;
+    box-shadow: 0px -1px 1px 1px rgba(8, 41, 0, 0.25) inset, 0px 1px 1px 1px rgba(255, 255, 255, 0.25) inset, 0px 0px 0px 1px #0D5E00 inset, 0px 1px 2px 0px rgba(20, 14, 62, 0.25);
+}
+.datakar{
+    padding-top: 10px !important;
+}
